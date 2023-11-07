@@ -1,1 +1,3 @@
-PLAYER: scripts/Ambient/Interior/InteriorMain.lua
+PLAYER: scripts/Music/Interior/InteriorMain.lua
+PLAYER: scripts/player.lua
+GLOBAL: scripts/UI/eating.lua
