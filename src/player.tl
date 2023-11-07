@@ -3,7 +3,7 @@ local ambient = require "openmw.ambient"
 
 return {
 	eventHandlers = {
-		__AURA_USE_INGREDIENT = function ()
+		__AURA__useIngredient = function ()
 			if ambient.isSoundPlaying("Swallow") then
 				ambient.stopSound("Swallow")
 			end
